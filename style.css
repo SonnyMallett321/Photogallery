@@ -5,6 +5,7 @@ body {
     width:485px;
     margin:0 auto;
     background-color: white;
+    height:2100px;
 }
 main {
         display:grid;
@@ -24,6 +25,13 @@ main h2 {
     top:-50px;
     left:160px;
 }
+h1{
+    font-size: 3em;
+    color:#007d7d
+}
+h2 {
+    font-size: 2em;
+}
 .white {
     color:white;
 }
@@ -32,6 +40,9 @@ main h2 {
 }
 #contact {
     text-align: center;
+}
+Nav a {
+    font-size: 1.5em;
 }
 Nav li {
     display:inline-block;
@@ -44,6 +55,10 @@ Nav h2 {
 }
 footer {
     text-align: center;
+    color:white;
+}
+#contact {
+    color:white;
 }
 [href="#Top"] {
     position:fixed;
